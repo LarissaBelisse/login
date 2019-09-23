@@ -9,14 +9,14 @@ Pressione Enter
 
 ## clonar oi repositorio **login** na pasta **c:/xampp\htdocs**
 
--Tecla windows - Abrir o Github desktop 
--Clique em *Sign in to Github.com*
--Digite seu login e senha do github
--Caso necessario, apos o login, digite seu nome e e-mail e clique em *continue*
--Selecione o repositorio **login** e logo abaixo clique no botao azul *clone...*
--Clique no botao *choose* e encontre no disco local c: a pasta xampp e dentro dela htdocs
--selecione a pasta e confira se o *local paht* foi *c:\xampp\htdocs\login*
--cliqueno botao azul *clone*
+- Tecla windows - Abrir o Github desktop 
+- Clique em *Sign in to Github.com*
+- Digite seu login e senha do github
+- Caso necessario, apos o login, digite seu nome e e-mail e clique em *continue*
+- Selecione o repositorio **login** e logo abaixo clique no botao azul *clone...*
+- Clique no botao *choose* e encontre no disco local c: a pasta xampp e dentro dela htdocs
+- selecione a pasta e confira se o *local paht* foi *c:\xampp\htdocs\login*
+- cliqueno botao azul *clone*
 
 ## Habilitar o servidor web ** apache ** e o servidor **MySQL**
 
