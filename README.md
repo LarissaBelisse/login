@@ -20,11 +20,11 @@ Pressione Enter
 
 ## Habilitar o servidor web ** apache ** e o servidor **MySQL**
 
--Tecla windows -abrir o xampp control panel
--clique em start para o apache
--clique em start para o mysql
--verifique se apareceu a porta 80 apache e 3306 mysql
--verifique se ficou verde o apache e mysql
+- Tecla windows -abrir o xampp control panel
+- clique em start para o apache
+- clique em start para o mysql
+- verifique se apareceu a porta 80 apache e 3306 mysql
+- verifique se ficou verde o apache e mysql
 
 ## Testar se esta funcionando 
 
