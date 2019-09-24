@@ -1,4 +1,6 @@
 # login
+# Aula 2 do dia 24/09/2019
+# Aula 1 
 Habilitar o Proxy
 Tecla Windows - Abrir a janela Prompt de Comando
 Copie e cole a linha abaixo - selecione e pressione as teclas Ctrl C
