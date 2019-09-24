@@ -1,6 +1,13 @@
 # login
+Sistema de Login em PHP e Javascript
+
 # Aula 2 do dia 24/09/2019
-# Aula 1 
+Layout bootstrap para os formularios
+ - Formulario de login 
+ - Formulario de recuperaçao de senha
+ - Formulario de Cadastro de novos usuarios 
+
+# Aula 1 do dia 23/09/2019
 Habilitar o Proxy
 Tecla Windows - Abrir a janela Prompt de Comando
 Copie e cole a linha abaixo - selecione e pressione as teclas Ctrl C
