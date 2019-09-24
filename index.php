@@ -36,7 +36,44 @@ Abra a URL http://localhost/login/ no navegador
 <form action="#" method="post" class="p-2"
 id="formLogin">
 <div class="form-group">
-    <input type="text" name="" id="">
+ <input type="text" name="nomeUsuario" 
+ id="nomeUsuario" placeholder="Nome de usuario"
+  class="form-control">
+</div>
+
+<div class="form-group">
+    <input type="password" name="senhausuario"
+    id="senhausuario" placeholder="senha"
+    class="form-control">
+</div>
+
+<div class="form-group">
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox"name="lembrar"
+    id="lembrar" class="custom-control-input">
+    <label for="lembrar" class="custom-control-label">
+        Lembrar de mim.
+</label>
+
+<a href="#" class="float-right" id="btnesqueci">
+    Esqueci a Senha!
+</a>
+
+</div>
+</div> 
+
+<div class="form-group">
+    <input type="submit" value="::Entrar::"
+    name="btnEntrar" id="btnEntrar"
+    class="btn btn-primary btn-block">
+</div>
+
+<div class="form-group">
+    <p class="text-center">
+    <p>Novo usuario? <a href="#" id="btnRegistrar">
+        Registre-se aqui!
+</a>
+</p>
 </div>
 
 </form>
