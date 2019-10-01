@@ -2,6 +2,9 @@
 Sistema de Login em PHP e Javascript
 
 # Aula 4 do dia 01/10/2019
+- Validaçao com HTml5
+- Validaçao dos campos com jquery validate
+
 
 # Aula 3 do dia 30/09/2019
 - Formulario de cadastro de novos usuarios
