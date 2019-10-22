@@ -1,6 +1,10 @@
 # login
 Sistema de Login em PHP e Javascript
 
+# aula08 - 21/10/2019
+- Autenticaçao do usuario e permissao de acaso ao perfil.php
+- Conceito
+
 # Aula 4 do dia 01/10/2019
 - Validaçao com HTml5
 - Validaçao dos campos com jquery validate

@@ -1,4 +1,8 @@
     <?php
+    //iniciando a sessao 
+    session_start();
+
+
     //Conexão com o banco de dados
     require_once 'configBD.php';
 
@@ -78,11 +82,26 @@
                 }
             }
         } else if ($_POST['action'] == 'login') {
-            //Senão, teste se ação é login
-            echo "\n<p>login</p>";
-            echo "\n<pre>"; //Pre-formatar
-            print_r($_POST);
-            echo "\n<\pre>";
+
+        $nomeUsuario = verificar_entrada($_POST['nomeUsuario']);
+        $senhaUsuario = verificar_entrada($_POST['senhaUsuario']);
+        $senha = sha1($senhaUsuario); //Senha codificada
+        $sql = $connect->prepare("SELECT * FROM usuario WHERE 
+        senhaDoUsuario = ? AND nomeDoUsuario = ?");
+        $sql->bind_param("ss", $senha, $nomeUsuario);
+        $sql->execute();
+        $busca = $sql->fetch();
+        if ($busca != null) {
+            $_SESSION['nomeUsuario']  = $nomeUsuario
+            echo "ok";
+        } else {
+            echo "<p class='text-danger'>";
+            echo "Falhou a entrada no sistema. Nome de 
+            usuário ou senha inválidos";
+            echo "</p>";
+            exit();
+        }
+
         } else if ($_POST['action'] == 'senha') {
             //Senão, teste se ação é recuperar senha
             echo "\n<p>senha</p>";
