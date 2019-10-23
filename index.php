@@ -262,13 +262,12 @@
                         method: 'post',
                         data: $("#formLogin").serialize() + '&action=login',
                         success: function(resposta) {
-                            //$(".Resultado").html(resposta);
                             $("#alerta").show();
-                            if(resposta == "ok") {                                
+                            //$(".resultado").html(resposta);
+                            if (resposta === "ok") {
                                 window.location = "perfil.php";
                             } else {
                                 $(".resultado").html(resposta);
-                                //$(".resultado").html(resposta);
                             }
                         }
                     });
